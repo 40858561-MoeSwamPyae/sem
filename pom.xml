@@ -15,10 +15,12 @@
     </properties>
 
     <dependencies>
+        <!-- Source: https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
         <dependency>
             <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver</artifactId>
-            <version>3.6.4</version>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.11.1</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
