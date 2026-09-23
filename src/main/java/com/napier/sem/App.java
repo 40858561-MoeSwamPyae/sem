@@ -11,7 +11,7 @@ public class App
     public static void main(String[] args)
     {
         // Connect to MongoDB using standard connection string
-        try (MongoClient mongoClient = MongoClients.create("mongodb://localhost:27000")) {
+        try (MongoClient mongoClient = MongoClients.create("mongodb://mongo-db-target:27017")) {
 
             // Get database and collection
             MongoDatabase database = mongoClient.getDatabase("mydb");
